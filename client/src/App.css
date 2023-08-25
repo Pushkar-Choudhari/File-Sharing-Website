@@ -1,0 +1,80 @@
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.file {
+    display: flex;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 5px;
+}
+
+.topnav {
+    background-color: #222;
+    border: 1px solid grey;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.auth-form-container,
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+    .auth-form-container {
+        padding: 5rem;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 0.5rem;
+    }
+}
+
+label {
+    text-align: left;
+    padding: 0.25rem 0;
+}
+
+.fileName {
+    width: 300px;
+}
+
+input {
+    height: 25px;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #7439db;
+    height: 25px;
+}
+
+.link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
